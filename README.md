@@ -1,3 +1,6 @@
 # analytics-engineering-portfolio
 
-(placeholder - full README written in Session 3)
+## Purpose 
+Portfolio repo documenting my roadmap into Analytics Engineering
+
+
