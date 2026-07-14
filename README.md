@@ -1,11 +1,7 @@
 # analytics-engineering-portfolio
 
 ## Purpose 
-<<<<<<< HEAD
-Portfolio repo showcasing my transition into Analytics Engineering, one deliberate commit at a time.
-=======
-Portfolio repo built while learning Analytics Engineering fundamentals from the ground up.
->>>>>>> feature/edit-purpose-b
+Portfolio repo showcasing my transition into Analytics Engineering, built while learning fundamentals from the ground up, one deliberate commit at a time.
 
 ## Status
 Phase  in progress - Git & Linux fundamentals
