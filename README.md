@@ -32,7 +32,9 @@ Path evaluation and scoring methodology live outside this repo; this README cove
     scripts/           Placeholder for Phase 1 Python scripts
     .gitignore         Python and OS artifacts excluded from tracking
     .gitattributes     Enforces LF line endings repo-wide
+    LICENSE            MIT License
     README.md          This file
+    requirements.txt   Dependencies for the project
 
 This repo covers Phases 0-2 and the final capstone. From Phase 3 onward, work lands in separate repos per the policy above, linked here as each one goes live.
 
