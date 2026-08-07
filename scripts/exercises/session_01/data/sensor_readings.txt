@@ -1,0 +1,27 @@
+# Sensor readings log - synthetic data for Phase 1 Session 1
+# Format: timestamp|sensor_id|value|status
+# This file is deliberately messy: blank lines, comments, missing fields,
+# non-numeric values, and stray whitespace are all intentional.
+2026-07-01T08:00:00|S1|22.4|OK
+2026-07-01T08:05:00|S2|8.1|OK
+2026-07-01T08:10:00|S3|31.5|WARN
+2026-07-01T08:15:00|S1|55.2|FAIL
+2026-07-01T08:20:00|S4|19.9|OK
+
+2026-07-01T08:25:00|S2||OK
+2026-07-01T08:30:00|S3|N/A|WARN
+2026-07-01T08:35:00|S1|23.1
+2026-07-01T08:40:00|S4|-2.5|OK
+  2026-07-01T08:45:00|S2|17.3|OK
+2026-07-01T08:50:00|S3|48.9|HIGH
+2026-07-01T08:55:00|S1|9.9|OK
+2026-07-01T09:00:00|S4|61.0|FAIL
+2026-07-01T09:05:00|S2|15.6|OK
+2026-07-01T09:10:00|S3|33.2|WARN
+this line is just garbage
+2026-07-01T09:15:00|S1|27.8|OK
+2026-07-01T09:20:00|S4|5.5|OK
+2026-07-01T09:25:00|S2|,,,|OK
+2026-07-01T09:30:00|S3|41.0|HIGH
+2026-07-01T09:35:00|S1|58.4|FAIL
+2026-07-01T09:40:00|S4|12.1|OK
