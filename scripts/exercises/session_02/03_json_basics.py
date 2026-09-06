@@ -44,7 +44,6 @@ def load_catalog(path: str) -> dict:
     with open(path, "r", encoding="utf-8") as file:
         catalog = json.load(file)
     return catalog
-    raise NotImplementedError
 
 
 def load_catalog_safe(path: str) -> dict | None:
@@ -71,7 +70,6 @@ def load_catalog_safe(path: str) -> dict | None:
         print(f"An error occurred: {e}")
         return None
     return catalog
-    raise NotImplementedError
 
 
 def get_products_by_category(catalog: dict, category: str) -> list[dict]:
@@ -96,7 +94,6 @@ def get_products_by_category(catalog: dict, category: str) -> list[dict]:
         if product["category"] == category:
             products.append(product)
     return products
-    raise NotImplementedError
 
 
 def save_summary(catalog: dict, path: str) -> None:

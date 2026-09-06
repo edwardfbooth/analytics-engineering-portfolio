@@ -44,7 +44,6 @@ def safe_divide(a: float, b: float) -> float:
         return a / b
     except ZeroDivisionError as e:
         raise ValueError("b must be a nonzero number") from e
-    raise NotImplementedError
 
 
 def parse_int_or_default(value: str, default: int = 0) -> int:
@@ -71,7 +70,6 @@ def parse_int_or_default(value: str, default: int = 0) -> int:
         return default
     else: 
         return result
-    raise NotImplementedError
 
 
 def validate_order_quantity(quantity: int) -> int:
@@ -95,7 +93,7 @@ def validate_order_quantity(quantity: int) -> int:
     if not isinstance(quantity, int) or quantity <= 0:
         raise InvalidOrderError(f"quantity must be a positive int, got {quantity!r}")
     return quantity
-    raise NotImplementedError
+    
 
 
 def parse_all_or_report(values: list[str]) -> tuple[list[int], list[str]]:
@@ -130,7 +128,7 @@ def parse_all_or_report(values: list[str]) -> tuple[list[int], list[str]]:
             errors.append(f"could not parse {item!r}")
             continue
     return parsed, errors
-    raise NotImplementedError
+    
 
 
 if __name__ == "__main__":
