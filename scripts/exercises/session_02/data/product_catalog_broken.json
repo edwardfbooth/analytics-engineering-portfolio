@@ -1,0 +1,6 @@
+{
+  "store": "Loja Synthetic Retail",
+  "products": [
+    {"product_id": "P001", "name": "Wireless Mouse", "category": "Electronics", "price": 19.90},
+  ]
+}

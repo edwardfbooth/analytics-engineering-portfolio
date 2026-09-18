@@ -167,7 +167,6 @@ def write_summary_report(summary: dict, total_readings: int, out_path: Path) -> 
         total_readings: Total number of valid readings processed.
         out_path: Destination file path (parent dir created if missing).
     """
-    # TODO: implement, mkdir(parents=True, exist_ok=True) on out_path.parent first
     out_path.parent.mkdir(parents=True, exist_ok=True)
     with open(out_path, "w") as file:
         file.write(f"Sensor Reading Reports\n ======================\n Total valid readings {total_readings}\n\n")

@@ -1,0 +1,9 @@
+order_id,product_id,quantity,unit_price,customer
+1,P001,3,19.90,Ana
+2,P002,,25.50,Bruno
+3,P001,2,19.90,Carla
+4,P003,5,-10.00,Diego
+5,P002,1,25.50,Ana
+6,P999,2,15.00,Elena
+7,P003,abc,12.00,Fabio
+8,P001,1,19.90,Bruno

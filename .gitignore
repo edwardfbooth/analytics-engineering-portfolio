@@ -9,4 +9,4 @@ venv/
 # OS
 .DS_Store
 Thumbs.db
-scripts/exercises/session_01/output/
+scripts/exercises/*/output/

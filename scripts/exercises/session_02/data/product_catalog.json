@@ -1,0 +1,10 @@
+{
+  "store": "Loja Synthetic Retail",
+  "updated": "2026-08-01",
+  "products": [
+    {"product_id": "P001", "name": "Wireless Mouse", "category": "Electronics", "price": 19.90},
+    {"product_id": "P002", "name": "Notebook Stand", "category": "Office", "price": 25.50},
+    {"product_id": "P003", "name": "USB-C Cable", "category": "Electronics", "price": 12.00},
+    {"product_id": "P004", "name": "Desk Lamp", "category": "Home", "price": 34.00}
+  ]
+}
