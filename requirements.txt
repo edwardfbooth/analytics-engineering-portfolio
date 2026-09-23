@@ -1,2 +1,3 @@
 # Python dependencies for this project
 # TODO: add real deps starting Phase 1
+pandas>=2.2,<3.0
