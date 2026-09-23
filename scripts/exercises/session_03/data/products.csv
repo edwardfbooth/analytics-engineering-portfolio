@@ -1,0 +1,16 @@
+product_id,name,category,unit_price,in_stock
+P001,Wireless Mouse,Electronics,$29.99,yes
+P002,Mechanical Keyboard,Electronics,$89.50,yes
+P003,USB-C Cable,Electronics,$12.00,yes
+P004,Yoga Mat,Fitness,$25.00,no
+P005,Water Bottle,Fitness,$15.99,yes
+P006,Desk Lamp,Home,$34.99,yes
+P007,Office Chair,Home,$189.99,no
+P008,Notebook,Office,$4.50,yes
+P009,Pen Set,Office,$9.99,yes
+P010,Monitor Stand,Electronics,$45.00,yes
+P011,Running Shoes,Fitness,$79.99,yes
+P012,Backpack,Office,$59.99,no
+P013,Bluetooth Speaker,Electronics,$49.99,yes
+P014,Standing Desk,Home,$349.00,yes
+P015,Resistance Bands,Fitness,$19.99,yes
